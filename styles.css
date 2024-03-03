@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #1e90ff;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 125px;
+  }
+  
+  h1 {
+    margin: 0;
+    margin-left: 15px; /* Memberi jarak antara logo dan judul */
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin-left: 10px;
+  }
+  
+  nav ul li:first-child {
+    margin-left: 0;
+  }
+  
+  nav ul li a {
+    display: block;
+    background-color: #1e90ff;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  nav {
+    flex: 1;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  h2 {
+    color: #1e90ff;
+    margin-top: 30px;
+  }
+  
+  ul, ol {
+    margin-bottom: 20px;
+  }
+  
+  strong {
+    color: #1e90ff;
+  }
+  
+  a {
+    color: #1e90ff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  nav a.button {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #007bff;
+    border-radius: 5px;
+  }
+  
+  nav a.button.active {
+    background-color: #007bff;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .quiz-button {
+    background-color: #4CAF50; /* Hijau */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .quiz-button:hover {
+    background-color: #45a049; /* Hijau gelap saat hover */
+  }
+  
+  .quiz-button.clicked {
+    background-color: #ba0000; /* Biru */
+  }
+  
+  .quiz-button.clicked:hover {
+    background-color: #005f6b; /* Biru gelap saat hover */
+  }
+  footer {
+    background-color: #333; /* Warna latar belakang footer */
+    color: #fff; /* Warna teks footer */
+    padding: 20px; /* Ruang di dalam footer */
+    text-align: center; /* Posisi teks ke tengah */
+    position: fixed; /* Tetap di bagian bawah layar */
+    left: 0;
+    bottom: 0;
+    width: 100%; /* Lebar footer */
+}

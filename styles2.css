@@ -1,0 +1,60 @@
+.container {
+    text-align: center;
+  }
+  
+  #startQuiz,
+  #startQuiz2 {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #startQuiz:hover,
+  #startQuiz2:hover {
+    background-color: #45a049;
+  }
+  .options button {
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #008CBA;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .options button:hover {
+    background-color: #005f6b;
+  }
+    
+  .ul {
+    background-color: #1e90ff;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    margin-left: 15px; /* Memberi jarak antara logo dan judul */
+    font-size: larger;
+    background-position-x: center;
+  }
+  footer {
+    background-color: #333; /* Warna latar belakang footer */
+    color: #fff; /* Warna teks footer */
+    padding: 20px; /* Ruang di dalam footer */
+    text-align: center; /* Posisi teks ke tengah */
+    position: fixed; /* Tetap di bagian bawah layar */
+    left: 0;
+    bottom: 0;
+    width: 100%; /* Lebar footer */
+}
